@@ -2,6 +2,20 @@
   background-color: black;
 }
 
+<<<<<<< HEAD
 #mannequin3 {
 	background-image: url("../image/mannequin3.png");
 }
+=======
+h1{
+  font-family: 'Playfair';/*Police de mon titre*/
+  color: #B4443B;/*Couleur titre*/
+}
+span{
+  color: #824896;/*couleur "Captain Tortue"*/
+}
+.pPres{
+  font-family: 'Playfair';
+  font-size: 30px;
+}
+>>>>>>> 58f1f4ad9107c11daa002d98a94c29592c0580e5
