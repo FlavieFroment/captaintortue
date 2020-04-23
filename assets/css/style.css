@@ -1,3 +1,15 @@
 .navbar{
   background-color: black;
 }
+
+h1{
+  font-family: 'Playfair';/*Police de mon titre*/
+  color: #B4443B;/*Couleur titre*/
+}
+span{
+  color: #824896;/*couleur "Captain Tortue"*/
+}
+.pPres{
+  font-family: 'Playfair';
+  font-size: 30px;
+}
