@@ -5,8 +5,14 @@
 
 h1{
   font-family: 'Playfair';/*Police de mon titre*/
-  color: #B4443B;/*Couleur titre*/
+  
 }
+
+.galleryTitle{
+  font-family: 'Playfair';/*Police de mon titre*/
+
+}
+
 span{
   color: #824896;/*couleur "Captain Tortue"*/
 }
@@ -24,3 +30,34 @@ span{
 .txtCollec{
   font-family:  'Playfair';
 }
+
+h3{
+  font-family: 'Playfair';/*Police de mon titre*/
+  color: #B4443B;/*Couleur titre*/
+}
+
+
+.form-control {
+background-color: #ffffff!important;
+color: black!important;
+}
+
+.form-control:focus {
+  background-color: #fffffff!important;
+  color:  black!important;
+}
+/*---------------------------------------------*/
+
+@media screen and (max-width: 1023px){
+    .navbar-brand{
+      display: none;
+    }
+  
+  }
+
+  @media screen and (max-width: 1023px){
+    img{
+      width: 100%;
+    }
+  
+  }
