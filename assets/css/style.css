@@ -16,3 +16,11 @@ span{
 #mannequin3 {
 	background-image: url("../image/mannequin3.png");
 }
+
+.hCollec{
+  color:#824896;  /*couleur titre collection été 2020*/
+}
+
+.txtCollec{
+  font-family:  'Playfair';
+}
