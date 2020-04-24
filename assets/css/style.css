@@ -36,16 +36,12 @@ h3{
   color: #B4443B;/*Couleur titre*/
 }
 
-
-.form-control {
-background-color: #ffffff!important;
-color: black!important;
+personalShopper{
+  font-family: 'Playfair';/*Police de mon titre*/
+  color: #B4443B;/*Couleur titre*/
 }
 
-.form-control:focus {
-  background-color: #fffffff!important;
-  color:  black!important;
-}
+
 /*---------------------------------------------*/
 
 @media screen and (max-width: 1023px){
