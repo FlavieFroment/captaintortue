@@ -17,43 +17,47 @@
     <body>
         <!------------------------------ Navbar responsive avec bootstrap----------------------->
 
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <nav class="navbar navbar-expand-lg" style="background-color: #000000";>
-                        <a class="navbar-brand" href="#"><img class="Logo Captain Tortue" src="assets/img/logo.gif" alt="logo CaptainTortue"></a>    
-                        <button class="navbar-toggler" id="buttonNav" type="button" data-toggle="collapse" data-target="#navbarHomePage" aria-controls="navbarHomePage" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span> 
-                        </button>
-                            <div class="collapse navbar-collapse" id="navbarHomePage">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item active">
-                                        <div class="col-md-2 text-center">
-                                        <li class="nav-item"><a class="nav-link text-white" href="#">PRESENTATION <span class="sr-only">(page en cours)</span></a></li>
-                                        </div>
-                                        <div class="col-md-2 text-center">
-                                        <li class="nav-item"><a class="nav-link text-white" href="#">NOUVEAUTE</a></li>
-                                        </div>
-                                        <div class="col-md-2 text-center">
-                                        <li class="nav-item"><a class="nav-link text-white" href="#">L'ATELIER</a></li>
-                                        </div>
-                                        <div class="col-md-2 text-center">
-                                        <li class="nav-item"><a class="nav-link text-white" href="#">COLLECTION 2020</a></li>
-                                        </div>
-                                        <div class="col-md-2 text-center">
-                                        <li class="nav-item"><a class="nav-link text-white " href="#contact">CONTACT</a></li>
-                                        </div>
-                                    </li>
-                                    <!-- Search form -->
-                                    <div class="searchNav mb-4">
-                                    <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-                                    </div>
-                                </ul>
-                            </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
+
+        
+
+        <div id="app" class="container-fluid m-0 p-0">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light pb-6">
+               <a class="navbar-brand" href="#" style="display:none;"><img class=" p-0 m-0" style="width:100px" src="assets/img/logoCT.png" alt="image logo marque"/></a><!---->
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button> 
+              <div id="navbarNavDropdown" class="collapse navbar-collapse">
+                  <ul class="navbar-nav w-100 bg-dark text-center m-0 p-4">
+                      <li class="nav-item col-md-4">
+                          <a class="nav-link text-white" href="#">PRÉSENTATION</a>
+                      </li>
+                      <li class="nav-item col-md-4">
+                          <a class="nav-link text-white" href="#">NOUVEAUTÉ</a>
+                      </li>
+                  <li class="nav-item col-md-4">
+                      <a class="nav-link text-white" href="#">L'ATELIER</a>
+                  </li>
+                 </ul>
+
+                  <a class="navbar-brand p-0 m-0" href="#"><img class=" p-0 m-0" style="width:150px" src="assets/img/logoCT.png" alt="image logo marque"/></a>
+                 
+                  <ul class="navbar-nav w-100 bg-dark text-center p-0 m-0 p-4">
+                      <li class="nav-item col-md-4">
+                          <a class="nav-link text-white" href="#">COLLECTION 2020</a>
+                      </li>
+                      <li class="nav-item col-md-4">
+                          <a class="nav-link text-white" href="#">CONTACT</a>
+                      </li>
+                      <li class="nav-item col-md-4">
+                          <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                      </li>
+                  </ul>
+              </div>
+          </nav>
+         
+      </div>
+
+
 
           <!--------------------------------------Slider-------------------------------------------------> 
 <div class="container-fluid">
@@ -102,8 +106,8 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-12 text-center mt-3"  id="vestes"style="background-color: #824896";>
-            <h1>Vestes</h1>
+        <div class="col-md-12 text-center mt-3"  id="vestes"style="background-color: #824896">
+            <h1 class="display-4">Vestes</h1>
         </div>
     </div>
 </div>
@@ -114,27 +118,27 @@
             <div class="card col-md-4">
               <img src="assets/img/page2/veste1.gif" class="card-img-top" alt="veste1">
               <div class="card-body">
-                <h5 class="card-title">Veste jeans</h5>
+                <h3 class="card-title">Veste jeans</h3>
                 <p class="card-text">Nouvelle veste été 2020</p>
-                <a href="#" class="btn btn-primary">Acheter</a>
+                <a href="#" class="btn btn-secondary">Acheter</a>
                 
               </div>
             </div>
             <div class="card col-md-4">
               <img src="assets/img/page2/veste2.gif" class="card-img-top" alt="veste2">
               <div class="card-body">
-                <h5 class="card-title">Veste 2</h5>
+                <h3 class="card-title">Veste 2</h3>
                 <p class="card-text">Nouvelle veste été 2020</p>
-                <a href="#" class="btn btn-primary">Acheter</a>
+                <a href="#" class="btn btn-secondary">Acheter</a>
                 
               </div>
             </div>
             <div class="card col-md-4">
               <img src="assets/img/page2/veste4.gif" class="card-img-top" alt="veste3">
               <div class="card-body">
-                <h5 class="card-title">Veste 3</h5>
+                <h3 class="card-title">Veste 3</h3>
                 <p class="card-text">Nouvelle veste été 2020</p>
-                <a href="#" class="btn btn-primary">Acheter</a>
+                <a href="#" class="btn btn-secondary">Acheter</a>
                 
               </div>
             </div>
@@ -145,7 +149,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-12 text-center"style="background-color: #824896";>
-            <h1>Chemises et blouses</h1>
+            <h2 class="galleryTitle display-4">Chemises & blouses</h2>
         </div>
     </div>
 </div>
@@ -156,27 +160,27 @@
             <div class="card col-md-4">
               <img src="assets/img/page2/chemise1.gif" class="card-img-top" alt="chemise1">
               <div class="card-body">
-                <h5 class="card-title">Chemise blanche</h5>
+                <h3 class="card-title">Chemise blanche</h3>
                 <p class="card-text">Nouvelle chemise été 2020</p>
-                <a href="#" class="btn btn-primary">Acheter</a>
+                <a href="#" class="btn btn-secondary">Acheter</a>
                 
               </div>
             </div>
             <div class="card col-md-4">
               <img src="assets/img/page2/chemise2.gif" class="card-img-top" alt="chemise2">
               <div class="card-body">
-                <h5 class="card-title">Chemise 2</h5>
+                <h3 class="card-title">Chemise 2</h3>
                 <p class="card-text">Nouvelle chemsie été 2020</p>
-                <a href="#" class="btn btn-primary">Acheter</a>
+                <a href="#" class="btn btn-secondary">Acheter</a>
                 
               </div>
             </div>
             <div class="card col-md-4">
               <img src="assets/img/page2/chemise3.gif" class="card-img-top" alt="chemise3">
               <div class="card-body">
-                <h5 class="card-title">Chemise 3</h5>
+                <h3 class="card-title">Chemise 3</h3>
                 <p class="card-text">Nouvelle chemise été 2020</p>
-                <a href="#" class="btn btn-primary">Acheter</a>
+                <a href="#" class="btn btn-secondary">Acheter</a>
                 
               </div>
             </div>
@@ -187,7 +191,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-12 text-center"style="background-color: #824896";>
-            <h1>Jeans</h1>
+            <h2 class="galleryTitle display-4">Jeans</h2>
         </div>
     </div>
 </div>
@@ -198,27 +202,27 @@
             <div class="card">
               <img src="assets/img/page2/jeans.gif" class="card-img-top" alt="jeans1">
               <div class="card-body">
-                <h5 class="card-title">Jeans noir</h5>
+                <h3 class="card-title">Jeans noir</h3>
                 <p class="card-text">Nouveau jeans été 2020</p>
-                <a href="#" class="btn btn-primary">Acheter</a>
+                <a href="#" class="btn btn-secondary">Acheter</a>
                 
               </div>
             </div>
             <div class="card col-md-4">
               <img src="assets/img/page2/jeans3.gif" class="card-img-top" alt="jeans2">
               <div class="card-body">
-                <h5 class="card-title">Jeans destroy</h5>
+                <h3 class="card-title">Jeans destroy</h3>
                 <p class="card-text">Nouveau jeans été 2020</p>
-                <a href="#" class="btn btn-primary">Acheter</a>
+                <a href="#" class="btn btn-secondary">Acheter</a>
                 
               </div>
             </div>
             <div class="card col-md-4">
               <img src="assets/img/page2/jeans4.gif" class="card-img-top" alt="jeans3">
               <div class="card-body">
-                <h5 class="card-title">Jeans </h5>
+                <h3 class="card-title">Jeans </h3>
                 <p class="card-text">Nouveau jeans été 2020</p>
-                <a href="#" class="btn btn-primary">Acheter</a>
+                <a href="#" class="btn btn-secondary">Acheter</a>
                 
               </div>
             </div>
@@ -242,7 +246,7 @@
 <footer id="footer" class="py-4 bg-dark text-white-50">
     <div class="container text-center text-white">
       <p>&copy; COPYRIGHT<br>
-      <span id="title">SYLVIE L. & EDDY P.<br>
+      SYLVIE L. & EDDY P.<br>
       AVRIL 2020</span> </p>
 
     </div>

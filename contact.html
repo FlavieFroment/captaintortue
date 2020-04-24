@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" langue=fr> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Captain Tortue</title>
+        <meta name="description" content="Modifier l'integration d'un site donné en utilisant bootstrap">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="https://kit.fontawesome.com/fe06ecf098.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+
+        <body>
+            <div id="app" class="container-fluid m-0 p-0">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light pb-6">
+                     <a class="navbar-brand" href="#" style="display:none;"><img class=" p-0 m-0" style="width:100px" src="assets/img/logoCT.png" alt="image logo marque"/></a><!---->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button> 
+                    <div id="navbarNavDropdown" class="collapse navbar-collapse">
+                        <ul class="navbar-nav w-100 bg-dark text-center m-0 p-4">
+                            <li class="nav-item col-md-4">
+                                <a class="nav-link text-white" href="#">PRÉSENTATION</a>
+                            </li>
+                            <li class="nav-item col-md-4">
+                                <a class="nav-link text-white" href="#">NOUVEAUTÉ</a>
+                            </li>
+                        <li class="nav-item col-md-4">
+                            <a class="nav-link text-white" href="#">L'ATELIER</a>
+                        </li>
+                       </ul>
+      
+                        <a class="navbar-brand p-0 m-0" href="#"><img class=" p-0 m-0" style="width:150px" src="assets/img/logoCT.png" alt="image logo marque"/></a>
+                       
+                        <ul class="navbar-nav w-100 bg-dark text-center p-0 m-0 p-4">
+                            <li class="nav-item col-md-4">
+                                <a class="nav-link text-white" href="#">COLLECTION 2020</a>
+                            </li>
+                            <li class="nav-item col-md-4">
+                                <a class="nav-link text-white" href="#">CONTACT</a>
+                            </li>
+                            <li class="nav-item col-md-4">
+                                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+               
+            </div>
+
+<!------------TITRE ET PARAGRAPHE---------->
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 text-center" style="background-color: #824896">
+            <h1 class="display-4">Votre expérience CaptainTortue</h1>
+            <p class="text-white text-center">Captain Tortue vous propose une expérience shopping adapter à vos besoins. Notre équipe de conseillers experts ce tien à votre disposition par mail ou téléphone. Remplissez le petit formulaire ci-dessous pour être contacté par l'un de nos personal shopper.</p>
+        </div>
+    </div>
+</div>
+
+
+<!-----------------------------------------FORMULAIRE ------------------------------------------------------------>
+
+<div class="row text-center text-white">
+<div class="col-md-6 right white ">
+<img src="assets/img/chemise8.gif" class="img-responsive" alt="mannequin"> <!----------photo a gauche du form--------------->
+    </div>
+<div class="col-md-6 text-left white">
+    
+    <form class="well form-horizontal" action=" " method="post"  id="contact_form">
+        <fieldset>
+        
+      
+        <h2 class=" text-dark sm-text-center">PERSONAL SHOPPER</h2>
+        
+
+    <div class="card-body m-6 text-dark"> 
+        <div class="form-group ">
+          <label class="col-md-4 control-label">Votre nom</label>  
+          <div class="col-md-4 inputGroupContainer">
+          <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+          <input  name="first_name" placeholder="Votre nom" class="form-control"  type="text">
+            </div>
+          </div>
+        </div>
+        
+        <!-- Text input-->
+        
+        <div class="form-group">
+          <label class="col-md-4 control-label" >Votre prénom</label> 
+            <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+          <input name="last_name" placeholder="Votre prénom" class="form-control"  type="text">
+            </div>
+          </div>
+        </div>
+        
+          <div class="form-group"> 
+          <label class="col-md-4 control-label">Votre style</label>
+            <div class="col-md-4 selectContainer">
+            <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+            <select name="department" class="form-control selectpicker">
+              <option value="">Choisir votre style</option>
+              <option>Moderne</option>
+              <option>Tendance</option>
+              <option >Bohéme</option>
+              <option >Casual</option>
+              <option >Urbain</option>
+              <option >BCBG</option>
+        </select>
+          </div>
+        </div>
+        </div>
+
+        <div class="form-group"> 
+            <label class="col-md-4 control-label">Vous souhaitez</label>
+              <div class="col-md-4 selectContainer">
+              <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+              <select name="department" class="form-control selectpicker">
+                <option value="">Selectionner</option>
+                <option>Un relooking</option>
+                <option>Changer votre garde-robe</option>
+                <option >Trouver de nouvelles pièces</option>
+          </select>
+            </div>
+          </div>
+          </div>
+          <div class="form-group"> 
+            <label class="col-md-4 control-label">Vous souhaitez être recontactée..</label>
+              <div class="col-md-4 selectContainer">
+              <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+              <select name="department" class="form-control selectpicker">
+                <option value="">Selectionner</option>
+                <option>Par mail</option>
+                <option>Par téléphone</option>
+          </select>
+            </div>
+          </div>
+          </div>
+
+       
+       
+     
+        <!-- Button -->
+        <div class="form-group">
+          <label class="col-md-4 control-label"></label>
+          <div class="col-md-4"><br>
+        <a href="#" class="btn btn-secondary">ENVOYER !</a>
+  </div>
+</div>
+
+</fieldset>
+    </div>
+
+</div>
+</div>
+
+
+<!--------------------------------------FOOTER------------------------------------------------->
+
+<footer id="footer" class="py-4 bg-dark text-white-50">
+    <div class="container text-center text-white">
+      <p>&copy; COPYRIGHT<br>
+      SYLVIE L. & EDDY P.<br>
+      AVRIL 2020</p>
+
+    </div>
+  </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+ </body>
+</html>
